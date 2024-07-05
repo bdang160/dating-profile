@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dating Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77b5fe 3px solid;
+        }
+        header h1 {
+            text-align: center;
+            margin: 0;
+        }
+		header p {
+            text-align: center;
+            margin: 0;
+        }
+		section p {
+            font-size: 22px;
+        }
+        .photo-text {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        .photo-text img {
+            width: 30%;
+            margin: 10px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+        }
+        @media (max-width: 768px) {
+            .photo-text img {
+                width: 45%;
+            }
+        }
+        @media (max-width: 480px) {
+            .photo-text img {
+                width: 100%;
+                margin: 5px 0;
+            }
+        }
+        .photo-text section {
+            width: 100%;
+            margin: 20px 0;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bryan D.</h1>
+		</br>
+		<p>Contact Me: 703-776-9688</p>
+    </header>
+
+    <div class="container">
+        <div class="photo-text">
+            <img src="photos/black.PNG" alt="Photo 1">
+            <section>
+                <h2>Let's Debate this Topic</h2>
+                <p>People who like Slytherin were middle-school bullies.</p>
+            </section>
+			<section>
+                <h2>About Me</h2>
+                <p>Age: 28</p>
+				<p>Job: Software Dev</p>
+				<p>School: University of Maryland</p>
+            </section>
+        </div>
+
+        <div class="photo-text">
+            <img src="photos/tofu.JPEG" alt="Photo 2">
+            <section>
+                <h2>This year, I really want to</h2>
+                <p>Hike in Acadia</p>
+				<p>Learn Spanish</p>
+				<p>Visit Seattle</p>
+            </section>
+        </div>
+
+        <div class="photo-text">
+            <img src="photos/project-glow.JPEG" alt="Photo 3">
+            <section>
+                <h2>Do you agree or disagree that</h2>
+                <p>Pho > Sushi > Ramen</p>
+            </section>
+        </div>
+
+        <div class="photo-text">
+            <img src="photos/garage.JPEG" alt="Photo 4">
+            <img src="photos/otakon.JPEG" alt="Photo 5">
+            <img src="photos/hockey.JPEG" alt="Photo 6">
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My Dating Profile</p>
+    </footer>
+</body>
+</html>
